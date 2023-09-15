@@ -36,7 +36,7 @@ try:
       streamlit.error("Please enter fruit to get information")
   else:
       streamlit.write('The user entered ', fruit_choice)
-      back_from_function = get_fruiytvice_data(fruit_choice)
+      back_from_function = get_fruitytvice_data(fruit_choice)
       # this show
       streamlit.dataframe(back_from_function)
       
